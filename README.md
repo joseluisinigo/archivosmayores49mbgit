@@ -1,4 +1,3 @@
-```markdown
 # Script to Identify Large Files in Git
 
 This script helps detect files exceeding 49 MB in Git's state before performing a `git push`. Sometimes, large residual files are added to the repository, causing the `git push` to fail due to size restrictions on platforms like GitHub. This can corrupt the commit history and require additional steps to fix the issue.
@@ -89,11 +88,7 @@ git push
 - Ensure the repository's history remains clean and free of large, unwanted files.
 
 Use this script to maintain order in your repository and prevent unnecessary blocking issues!
-```
 
-
-
-```markdown
 # Script para Identificar Archivos Grandes en Git
 
 Este script ayuda a detectar archivos que superan los 49 MB en el estado de Git antes de realizar un `git push`. A veces, se añaden archivos residuales grandes al repositorio, lo que causa que el `git push` falle debido a restricciones de tamaño en plataformas como GitHub. Esto puede corromper el historial de commits y requerir pasos adicionales para solucionar el problema.
